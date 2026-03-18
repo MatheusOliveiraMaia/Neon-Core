@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Landing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: radial-gradient(circle at top, #0f172a, #020617);
+    }
+
+    .glow {
+      text-shadow: 0 0 10px #38bdf8, 0 0 20px #38bdf8;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+    }
+  </style>
+</head>
+<body class="text-white font-sans">
+
+  <!-- Hero -->
+  <section class="h-screen flex flex-col justify-center items-center text-center">
+    <h1 class="text-6xl font-bold glow">CyberDev</h1>
+    <p class="text-gray-400 mt-4 max-w-xl">Landing page futurista com efeitos visuais modernos e foco em impacto visual.</p>
+    <button class="mt-6 px-8 py-3 bg-cyan-500 rounded-2xl hover:bg-cyan-600 transition">Começar</button>
+  </section>
+
+  <!-- Features -->
+  <section class="py-20 max-w-6xl mx-auto">
+    <h2 class="text-4xl text-center font-bold mb-12">Features</h2>
+
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="card bg-slate-800 p-6 rounded-2xl transition duration-300 shadow-lg">
+        <h3 class="text-xl font-bold">⚡ Rápido</h3>
+        <p class="text-gray-400 mt-2">Performance otimizada e leve.</p>
+      </div>
+
+      <div class="card bg-slate-800 p-6 rounded-2xl transition duration-300 shadow-lg">
+        <h3 class="text-xl font-bold">🎨 Moderno</h3>
+        <p class="text-gray-400 mt-2">Design futurista e clean.</p>
+      </div>
+
+      <div class="card bg-slate-800 p-6 rounded-2xl transition duration-300 shadow-lg">
+        <h3 class="text-xl font-bold">📱 Responsivo</h3>
+        <p class="text-gray-400 mt-2">Funciona em qualquer dispositivo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 text-center">
+    <h2 class="text-3xl font-bold">Pronto pra subir de nível?</h2>
+    <button class="mt-6 px-8 py-3 bg-purple-600 rounded-2xl hover:bg-purple-700 transition">Entrar agora</button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500">
+    © 2026 CyberDev
+  </footer>
+
+</body>
+</html>
